@@ -23,3 +23,11 @@ typeof null
 'object'
 typeof undefined
 'undefined'
+
+/*****************/
+//Tipos de objetos y no primitivos
+
+// [1,2,3,4,'false']
+// {nombre:'Enrique',
+// edad:25,
+// estado:'soltero'}
