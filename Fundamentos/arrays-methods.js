@@ -37,3 +37,9 @@ var nombreArticulos= articulos.map(function(articulo){
  articulos.forEach(function(articulo){
      console.log(articulo.nombre);
  })
+ //Metodo Find
+ /** El método find() devuelve el valor del primer elemento del array que 
+  * cumple la función de prueba proporcionada. */
+ var encuentraArticulos = articulos.find(function(articulo){
+     return articulo.nombre === 'laptop'
+ });
