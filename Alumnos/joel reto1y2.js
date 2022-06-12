@@ -70,3 +70,32 @@ else
 {
     alert("¿juego terminado?");
 }
+
+//Reto 2
+function jugar(PC,USU){
+  if (PC === USU) return "Empate";
+
+  switch (PC) {
+    case "PIEDRA":
+      switch (USU) {
+        case "PAPEL":
+          return "Ganaste";
+        default:
+          return "PC gana";
+      }
+    case "PAPEL":
+      switch (USU) {
+        case "TIJERA":
+          return "Ganaste";
+        default:
+          return "PC gana";
+      }
+    case "TIJERA":
+      switch (USU) {
+        case "PIEDRA":
+          return "Ganaste";
+        default:
+          return "PC gana";
+      }
+  }
+}
