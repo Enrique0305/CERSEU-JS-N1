@@ -48,12 +48,4 @@ function juegos2(PC,USU){
       }
   }
 }
-// reto 3 
 
-function crearAuto(auto){
-   
-      for(var i=1; i<=20; i++){
-            console.log('auto'+i);
-      }
-}
-crearAuto(20);
